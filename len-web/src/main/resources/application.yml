@@ -5,3 +5,7 @@ len-blog:
   roles: blogAdmin
 #    可切换sqlserver
 #    active: sqlserver-dev
+logging:
+  level:
+    com.len: debug
+    org.activiti: debug
